@@ -1,6 +1,6 @@
 [core]
-	autocrlf = true
-	safecrlf = true
+	autocrlf = false
+	safecrlf = warn
 [user]
 	name = Bryan Bailliache
 	email = bryan.bailliache@gmail.com
