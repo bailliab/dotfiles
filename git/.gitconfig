@@ -1,0 +1,26 @@
+[core]
+	autocrlf = true
+	safecrlf = true
+[user]
+	name = Bryan Bailliache
+	email = bryan.bailliache@gmail.com
+
+[alias]
+	ci = commit -a
+	co = checkout
+	st = status
+	praise = blame
+	br = branch
+	df = diff
+	lg = log -p
+	spull = !git svn fetch && git svn rebase -l
+	spush = !git svn dcommit
+	lsd = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	g =  log --graph --decorate --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	v = !vim $
+
+[pager]
+	color = true
+
+[status]
+	color = auto
