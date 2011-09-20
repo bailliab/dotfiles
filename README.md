@@ -7,7 +7,7 @@ Git
 -------
 
 My Git configuration files
-
+  -Currently using autocrlf=false safecrlf=warn, don't let git modify the line endings.
 
 Vim
 -------
