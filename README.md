@@ -3,7 +3,12 @@ Readme
 
 These are my dotfiles/system configuration files that I use
 
-Git
+Shell
+-------
+
+Profile - from Windows Git shell
+
+Git           
 -------
 
 My Git configuration files
