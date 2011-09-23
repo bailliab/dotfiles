@@ -1,0 +1,4 @@
+host git 
+	user git
+	hostname devsrv
+	identityfile ~/.ssh/id_rsa.pub
