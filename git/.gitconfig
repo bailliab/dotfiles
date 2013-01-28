@@ -1,6 +1,6 @@
 [core]
 	autocrlf = false
-	safecrlf = warn
+	safecrlf = true
 [user]
 	name = Bryan Bailliache
 	email = bryan.bailliache@gmail.com
@@ -23,7 +23,7 @@
 	color = true
 
 [status]
-	color = auto
+	color = autoaz
 #[diff]
 #	tool = winmerge
 #[difftoool "winmerge"]
@@ -36,3 +36,7 @@
 	default = current
 [help]
 	format = html
+#[merge]
+#	tool = TortoiseMerge
+[http]
+	proxy =
