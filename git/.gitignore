@@ -36,6 +36,7 @@ _ReSharper*/
 *.resharper
 [Tt]est[Rr]esult*
 *.dotcover
+*.dotsettings
 
 #Project files
 [Bb]uild/
@@ -46,3 +47,13 @@ _ReSharper*/
 # Office Temp Files
 ~$*
 
+# Prebuilt files
+src/CommonAssemblyInfo.cs
+
+# Packages
+lib/
+
+*.ncrunchsolution
+*.ncrunchsolution.user
+
+root.dir
